@@ -1,67 +1,64 @@
-# Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
-header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
-url: "https://huangxuan.me" # your host, for absolute URL
-baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+#站点设置
+标题：隆哥的网站
+SEO标题： SEO标题：隆哥
+header-img :标头图片： img/主页-bg.jpg
+描述：“这里是隆哥的网站，啥也没有
+基本网址：“”基本网址：“”      # 例如，如果您的博客托管在 'host/blog' 上，则为 '/blog'# 例如，如果您的博客托管在 'host/blog' 上，则为 '/blog'# 例如，如果您的博客托管在 'host/blog' 上，则为 '/blog' '/blog'# 例如，如果您的博客托管在 'host/blog' 上，则为 '/blog' '/blog'# 例如，如果您的博客托管在 'host/blog' 上，则为 '/博客''/博客'
 
-# Publish posts or collection documents with a future date.
-future: true
+# 发布具有未来日期的帖子或收集文件。
+未来：事实
 
-# SNS settings
-RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
-#facebook_username:  huxpro
-#linkedin_username:  firstname-lastname-idxxxx
+# SNS 设置
+RSS：错误
+weibo_用户名： weibo_用户名： huxpro
+zhihu_username       : zhihu_用户名：huxpro
+github_用户名      : github_用户名：huxpro
+Twitter用户名：twitter_用户名：huxpro
+#facebook_用户名: huxpro
+#linkedin_username：姓名-姓氏-idxxxx
 
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude:
-  [
-    "less",
-    "node_modules",
-    "Gruntfile.js",
-    "package.json",
-    "README.md",
-    "README.zh.md",
-  ]
-anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
-# If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN
+#构建设置
+# 从 2016 年起，GitHub Pages 不再支持“pygments”。请改用“rouge”进行突出显示。
+荧光笔： 荧光笔： 胭脂
+永久链接： 永久链接： 漂亮
+页码：10
+结论：
+  [      [
+    “稀疏的”，“稀疏的”，
+    “ 节点模块”，“ 节点模块”，
+    “Gruntfile.js”，“Gruntfile.js”，
+    “寰.json”，“寰.json”，
+    “读我.md”，“读我.md”，
+    “README.zh.md”，  "README.zh.md" ,
+  ]]
+anchorjs: 
+# 如果你在中国有时区问题（例如#68），请取消注释以使用此项：
+#时区：CN
 
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-# make sure you have this gem installed
-# `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
+# 宝石
+# 来自 PR#40，支持 Jekyll 3.0 的本地预览
+# 确保你已经安装了这个 gem
+# `$ gem 安装 jekyll-paginate`
+插件: [插件：[ jekyll-paginate ] ]
 
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
-kramdown:
-  input: GFM # use Github Flavored Markdown !important
-  syntax_highlighter_opts:
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+# Markdown 设置
+# 将 redcarpet 替换为 kramdown，
+# 虽然 redcarpet 可以自动高亮代码，但是由于缺少 header-id 导致无法进入目录，所以我改用 kramdown
+# 文档：http://jekyllrb.com/docs/configuration/#kramdown
+markdown :降价：kramdown
+克拉姆当：
+  输入:   输入：GFM # 使用 Github Flavored Markdown !important# 使用 Github Flavored Markdown !important
+  语法highlighter_opts：
+    跨度：
+      行号：false
+    堵塞：
+      行号：true
+      起始行：1
 
-# Disqus settings
-disqus_username: hux
+# Disqus 设置
+disqus_用户名：disqus_用户名：hux
 
-# Netease settings
+# 网易设置
 netease_comment: false
 
 # Analytics settings
@@ -69,17 +66,17 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_track_id: "UA-49627206-1"ga_track_id：“UA-49627206-1”#格式：UA-xxxxxx-xx# Format: UA-xxxxxx-xx
+ga_domain: ga_domain: huangxuan.me
 
 # Sidebar settings
-sidebar: true # whether or not using Sidebar.
+sidebar: sidebar: true #是否使用侧边栏。# whether or not using Sidebar.
 sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: 侧边栏头像：https://github.com/Huxpro.png # 使用绝对 URL，因为它在 `/` 和 `/about/` 中都有使用://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
-featured-tags: true # whether or not using Feature-Tags
-featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
+featured-tags: featured-tags: true # 是否使用Feature-Tags# whether or not using Feature-Tags
+featured-condition-size: featured-condition-size: 1 # 如果标签的大小大于此条件值，则该标签将被推荐# A tag will be featured if the size of it is more than this condition value
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
@@ -90,13 +87,13 @@ page-mathjax: false
 
 # Friends
 friends:
-  [
-    { title: "乱序（Midare）", href: "http://mida.re/" },
-    { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
-    { title: "Kun Qian", href: "http://kunq.me" },
-    { title: "Sherry Woo", href: "https://sherrywoo.me/" },
-    { title: "SmdCn", href: "http://blog.smdcn.net" },
-    { title: "JiyinYiyong", href: "http://tiye.me/" },
-    { title: "DHong Say", href: "http://dhong.co" },
-    { title: "尹峰以为", href: "http://ingf.github.io/" },
-  ]
+  [[
+    { title: "乱序（Midare）",    { title: "乱序（Midare）", href: "http://mida.re/" },: "http://mida.re/" },
+    { title: "Ebn Zhang",    { title: "Ebn Zhang", href: "https://ebnbin.dev/" },: "https://ebnbin.dev/" },
+    { title: "Kun Qian",    { title: "坤谦", href: "http://kunq.me" },: "http://kunq.me" },
+    { title: "Sherry Woo",    { title: "Sherry Woo", href: "https://sherrywoo.me/" },: "https://sherrywoo.me/" },
+    { title: "SmdCn",    { title: "SmdCn", href: "http://blog.smdcn.net" },: "http://blog.smdcn.net" },
+    { title: "JiyinYiyong",    { title: "吉音易用", href: "http://tiye.me/" },: "http://tiye.me/" },
+    { title: "DHong Say",    { title: "DHong Say", href: "http://dhong.co" },: "http://dhong.co" },
+    { title: "尹峰以为",    { title: "尹峰以为", href: "http://ingf.github.io/" },: "http://ingf.github.io/" },
+  ]]
